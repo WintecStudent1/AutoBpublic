@@ -1,0 +1,112 @@
+/*********************/
+/*Images For Sections*/
+/*********************/
+
+/*Universal Sections*/
+section#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../Images/backing of carasoule.png") no-repeat center center / cover;
+}
+
+section#blank {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    no-repeat center center / cover;
+}
+
+/*Home*/
+
+section#backing {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/CopyrightBackinggreen.jpg") no-repeat center center / cover;
+}
+
+section#uniqueservices {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/skills.png") no-repeat center center / cover;
+}
+
+section#IcouldBe {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/in the cordoin.png") no-repeat center center / cover;
+}
+
+section#CopyrightAndContact {
+  background: 
+      url("../Images/CopyrightBacking.jpg") no-repeat center center / cover;
+}
+
+/*About*/
+section#career {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/traction driod.png") no-repeat center center / cover;
+}
+
+section#CopyrightAndContactAbout {
+  background: 
+      url("../Images/CopyrightBackingRed.jpg") no-repeat center center / cover;
+}
+
+/*Skills*/
+section#tr4ction {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/traction driod.png") no-repeat center center / cover;
+}
+
+section#stragedy {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/in control room.png") no-repeat center center / cover;
+}
+
+section#MechanicalLifeform {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/auto B with gun and background.png") no-repeat center center / cover;
+}
+
+section#Modficiations {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/autoB didisasiosd.png") no-repeat center center / cover;
+}
+
+section#SwarmTechnology {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/swarm tech.png") no-repeat center center / cover;
+}
+
+/*Work Expereince*/
+section#GeirsRegime {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../Images/traction driod") no-repeat center center / cover;
+}
+
+section#Meanface {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url("../Images/meanface.png") no-repeat center center / cover;
+}
+
+section#WorkExperience {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../Image/CopyrightBackingOrange.jpg") no-repeat center center / cover;
+}
+
+/*Education*/
+section#Education {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+}
+
+/*One Catch*/
+section#OneCatch {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Images/autoB\ didisasiosd.png)
+  no-repeat center center / cover;
+}
+
+section#CopyrightAndContactOneCatch {
+  background: 
+      url("../Images/CopyrightBackingOrange.jpg") no-repeat center center / cover;
+}
+
+/*Contact Me!*/
+section#ContactMe {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../Images/skills.png") no-repeat center center / cover;
+}

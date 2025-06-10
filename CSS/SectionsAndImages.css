@@ -1,0 +1,160 @@
+/***********************/
+/* SECTION CLASSES */
+/***********************/
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.thin_section {
+  width: 50%;
+  height: 100vh;
+  height: 100svh;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.small_section {
+  width: 100%;
+  height: 27%;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.doubleSectionMob {
+  /*Mobile version (Suppressed in full screen)*/
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.doubleSection {
+  width: 100%;
+  height: 200vh;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.CareerSection {
+  width: 100%;
+  height: 120vh;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.FirstSkillsSection {
+  width: 100%;
+  height: 127%;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/*******************/
+/*Images and Logos*/
+/******************/
+
+.Arrow {
+  filter: brightness(200%);
+  height: 10%;
+  width: 10%;
+}
+
+.logo {
+  position: fixed;
+  z-index: 2;
+  top: 1.5rem;
+  left: 1.5rem;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+
+/********************************/
+/* ALIGNING ITEMS IN CONTAINERS */
+/*******************************/
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bottom {
+  display: flex;
+  align-items: last-baseline;
+  justify-content: center;
+}
+
+.accordionAlign {
+  Align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.AccordionAlignPart2 {
+  padding-top: 7%;
+}
+
+/********/
+/*OTHER*/
+/*******/
+
+.carousel-inner {
+  height: 60vh !Important;
+  width: 60vw !Important;
+}
+
+.rightcollumn {
+  float: right;
+}
+
+.paddingforSection {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+.ShrinkCarasole {
+  width: 50% !Important;
+  height: 50% !Important;
+}

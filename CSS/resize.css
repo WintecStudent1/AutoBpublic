@@ -1,0 +1,251 @@
+/**************************/
+/* Screen Resize */
+/**************************/
+
+/* BELOW 1600px (carasoule) */
+@media (max-width: 1600px) {
+
+  .carousel-inner {
+    height: 55vh !Important;
+    width: 65vw !Important;
+  }
+
+  .p_Accordion {
+    font-size: 4rem;
+  }
+}
+
+/* BELOW 1500px (carasoule) */
+@media (max-width: 1500px) {
+
+  .carousel-inner {
+    height: 55vh !Important;
+    width: 70vw !Important;
+  }
+}
+
+/* BELOW 1400px (carasoule) */
+@media (max-width: 1400px) {
+
+  .carousel-inner {
+    height: 55vh !Important;
+    width: 75vw !Important;
+  }
+
+  .doubleSectionMob {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .p_Accordion {
+    font-size: 3.5rem;
+  }
+}
+
+/* BELOW 1300px (carasoule) */
+@media (max-width: 1300px) {
+
+  .carousel-inner {
+    height: 55vh !Important;
+    width: 80vw !Important;
+  }
+}
+
+/* BELOW 1200px (carasoule) */
+@media (max-width: 1200px) {
+
+  .carousel-inner {
+    height: 50vh !Important;
+    width: 85vw !Important;
+  }
+}
+
+/* BELOW 1100px (carasoule) */
+@media (max-width: 1100px) {
+
+  .carousel-inner {
+    height: 50vh !Important;
+    width: 90vw !Important;
+  }
+}
+
+/* BELOW 1000px (carasoule) */
+@media (max-width: 1000px) {
+
+  .carousel-inner {
+    height: 50vh !Important;
+    width: 95vw !Important;
+  }
+}
+
+/* BELOW 960px (carasoule) */
+@media (max-width: 960px) {
+
+  .carousel-inner {
+    height: 50vh !Important;
+    width: 100vw !Important;
+  }
+
+  .doubleSectionMob {
+    width: 100%;
+    height: 115vh;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .ul_home {
+    font-size: 200%;
+    text-align: left;
+    margin-left: 20vw;
+    line-height: 200%;
+  }
+}
+
+/* BELOW 832px (Tablets) */
+@media (max-width: 52em) {
+
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+}
+
+/* BELOW 730px */
+@media (max-width: 730px) {
+  .doubleSectionMob {
+    width: 100%;
+    height: 130vh;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+/* BELOW 640px */
+@media (max-width: 640px) {
+  .doubleSectionMob {
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+/* BELOW 600px (Phones) */
+@media (max-width: 37em) {
+
+  /*general Style*/
+  .hamburger-menu {
+    top: 0.5rem;
+    right: 1rem;
+  }
+
+  .logo {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .h1Contact {
+    font-size: 3rem;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+  }
+
+  .p_contact {
+    text-align: center;
+    padding-left: 5%;
+    font-size: 1.2rem;
+  }
+
+  .p_Accordion {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    width: 100%;
+  }
+
+  nav ul li {
+    padding: 0.5rem 0;
+  }
+
+  nav li a {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  /*Index Page*/
+
+  .carousel-innermob {
+    height: 100%;
+    width: 100vw;
+    margin-top: 30%;
+  }
+
+  .h1home {
+    font-size: 3rem;
+  }
+
+  .h1carasole {
+    font-size: 3rem;
+    padding: 5%;
+  }
+
+  .ul_home {
+    font-size: 100%;
+    text-align: left;
+    margin-left: 20vw;
+    line-height: 200%;
+  }
+
+  .doubleSectionMob {
+    width: 100%;
+    height: 105vh;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  /*About Page*/
+
+  .h1skills {
+    font-size: 3rem;
+  }
+
+  .h1education {
+    font-size: 3rem;
+  }
+
+  .h1workexperience {
+    font-size: 3rem;
+  }
+
+  /*Contact Me*/
+  .h1ContactMe {
+    font-size: 3rem;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+  }
+  
+  /*One Catch*/
+  .h1onecatch {
+    font-size: 3rem;
+  }
+  
+}

@@ -1,0 +1,36 @@
+/********************/
+/* IMPORTING FONTS */
+/*******************/
+/*Nunito*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+/*Orbitron*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/********************/
+/*General CSS Styles*/
+/********************/
+* {
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 
+    font-size: 10px; 
+    10px / 16px = 0.625 = 62.5%
+    Percentage of user's browser font-size setting
+  */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>AUTO B CV</title>
+      <!--Links Bootstrap Stylesheet-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!--Links boostrap Javascript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">          </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">       </script>
+    <!--general default stylings-->
+      <style>
+        body {
+          background: linear-gradient(to bottom right, grey, black);
+        }
+      </style>
+        <!--Links my StyleSheets-->
+        <link rel="stylesheet" href="CSS/style.css">
+</head>
+  
+<body>
+  
+  <!--NAV-->
+  <!-- MENU OVERLAY -->
+  <div class="overlay overlay-slide-left" id="overlay">
+    <!-- MENU ITEMS -->
+    <nav>
+      <ul>
+        <!--Home Link-->
+        <li id="nav-1" class="slide-out-1 center">
+          <a href="index.html" class="center"><b>Home</b></a>
+        </li> 
+        <!--About Link-->
+        <li id="nav-2" class="slide-out-2 center">
+          <a href="About.html" class="center"><b>About</b></a>
+        </li>
+        <!--Career Link-->
+        <li id="nav-3" class="slide-out-3 center">
+          <a href="About.html#career" class="center"><b>Career</b></a>
+        </li>
+        <!--Skills Link-->
+        <li id="nav-4" class="slide-out-4 center">
+          <a href="About.html#skillink" class="center"><b>Skills</b></a>
+        </li> 
+        <!--Work Experience Link-->
+        <li id="nav-5" class="slide-out-5 center">
+          <a href="About.html#workExperience" class="center"><b>Work Experience</b></a>
+        </li> 
+        <!--Education Link-->
+        <li id="nav-6" class="slide-out-6 center">
+          <a href="About.html#Education" class="center"><b>Education</b></a>
+        </li> 
+        <!--One Catch Link-->
+        <li id="nav-7" class="slide-out-7 center">
+          <a href="onecatch.html" class="center"><b>One Catch</b></a>
+        </li>
+        <!--Contact Me Link-->
+        <li id="nav-8" class="slide-out-8 center">
+          <a href="contact.html" class="center"><b>Contact Me</b></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- HAMBURGER MENU -->
+  <div class="hamburger-menu" id="hamburger-menu">
+    <div class="menu-bar1"></div>
+    <div class="menu-bar2"></div>
+    <div class="menu-bar3"></div>
+  </div>
+
+  
+  <!--Contact Me Heading-->
+  <section id="ContactMe" class="center">
+    <div class = "container">
+      <h1 class = "h1ContactMe">Contact Me!</h1>
+      <!--AUTO B LOGO-->
+      <p class="logo">AUTO B</p>
+    </div>
+
+    
+    <!--Form-->
+    <form onsubmit="return validateForm()">
+      <div class = "container">
+        <!--First Name-->
+        <div class = "form-group">
+          <p class = "p_form" for = "firstname">First Name:</p>
+            <input type="text" class="form-control" style = "background-color: grey; width: 40%;" id = "firstname" placeholder = "Enter First Name" name="firstname">
+        </div>
+        <!--Last Name-->
+        <div class = "form-group">
+          <p class = "p_form" for = "lastname">Last Name:</p>
+            <input type = "text" style = "background-color: grey; width: 40%;" class="form-control" id = "lastname" placeholder = "Enter Last Name" name = "firstname">
+        </div>
+        <!--Phone Number-->
+        <div class = "form-group">
+          <p class = "p_form"for = "phoneno">Phone Number:</p>
+            <input type = "tel" class = "form-control" style = "background-color: grey;" id = "phoneno" placeholder = "Enter Phone Number" name = "phoneno">
+        </div>
+        <!--Email Address-->
+        <div class = "form-group">
+          <p class = "p_form" for = "email">Email Address:</p>
+            <input type = "email" style = "background-color: grey;" class = "form-control" id = "email" placeholder = "Enter Email Address" name = "email">
+        </div>
+        <!--Message-->
+        <div class = "form-group">
+          <p class = "p_form" for = "desc">Message:</p>
+            <textarea rows = "5" class = "form-control" style = "background-color: grey;" id = "desc" placeholder = "Enter your Message Here:" name = "desc"></textarea>
+        </div>
+        <!--Buttons-->
+        <button type = "submit" style = "background-color: lightgreen;" class = "btn btn-default">Submit</button>
+        <button type = "clear" style = "background-color: #ff7878;" class = "btn btn-default">Clear</button>
+      </div>
+    </form>
+  </section>
+    
+  <!--Contact and Copyright-->
+  <Section id = "CopyrightAndContact" class = "small_section">
+    
+    <!--Contact-->
+    <h1 class = "h1Contact">Contact Information</h1>
+      </br>
+        <p class= "p_contact"><b><a href="tel:+345969839523">Call: 34596-9839523 </a></b></p>
+        <p class= "p_contact"><b><a href="mailto:someone@example.com">Email: _A_U_T_O_B_@TearEnterprise.com</a></b></p>
+        <p class = "p_contact"><b><a href="https://www.youtube.com/@AutoB-t7e">Youtube: AutoB</a></b></p>
+        <hr>
+    
+    <!--Copyright-->
+    <h1 class = "h1Contact">Copyright</h1>
+      </br>
+        <p><b>&copy AUTO B Tear Enterprises</b></p>
+  </Section>
+
+  <!--Java Section-->
+  <script src="Java/script.js"></script>  <!--Links Script-->
+  <script src="Java/formValidation.js"></script> <!--links the form validation for the form-->
+  
+</body>
+  
+</html>
